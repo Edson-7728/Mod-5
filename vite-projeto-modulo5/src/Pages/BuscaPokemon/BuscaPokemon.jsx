@@ -54,3 +54,4 @@ const BuscaPokemon = () => {
   )
 }
 
+export default BuscaPokemon
