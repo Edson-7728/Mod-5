@@ -9,6 +9,7 @@ import UsandoEstado from './components/usandoEstado/usandoEstado'
 import Sedex10 from './Pages/Sedex10/Sedex10'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home/Home'
+import { DefaultContext } from 'react-icons'
 
 function App() {
 
@@ -27,3 +28,4 @@ function App() {
   )
 }
 
+export default App
