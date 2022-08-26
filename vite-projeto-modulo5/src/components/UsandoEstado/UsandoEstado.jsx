@@ -23,3 +23,5 @@ const UsandoEstado = () => {
     </div>
   )
 }
+
+export default UsandoEstado

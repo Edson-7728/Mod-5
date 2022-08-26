@@ -19,3 +19,5 @@ const RandomUser = () => {
     </div>
   )
 }
+
+export default RandomUser

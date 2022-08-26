@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../Button/Button'
 import Label from '../Label/Label'
-import S from './Form.module.css'
+import S from './Forms.module.css'
 import formAnimado from '../../assets/formAnimado.svg'
 
 
