@@ -1,0 +1,13 @@
+.container {
+    border: 2px solid blue;
+    background-color: wheat;
+    height: 500px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    color: gray;
+}

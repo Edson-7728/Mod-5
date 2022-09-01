@@ -1,0 +1,17 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+}
