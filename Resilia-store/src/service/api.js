@@ -6,4 +6,6 @@ const api  = axios.create({
 
 export async function getProdutos(){
     const response = await api.get('./produtos')
+    console.log(response);
+    return response.data.produtos
 }
