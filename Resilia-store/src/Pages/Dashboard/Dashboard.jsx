@@ -16,13 +16,13 @@ const Dashboard = () => {
             <div className={S.container}>
                 <Form />
                 <div className={S.titulos}>
-                    <h4>Nome do produto</h4>
-                    <h4>Preço</h4>
-                    <h4>Categoria</h4>
-                    <h4>Marca</h4>
-                    <h4>Avaliação</h4>
-                    <h4>Cor</h4>
-                    <h4>Ações</h4>
+                    <label>Nome do produto</label>
+                    <label>Preço</label>
+                    <label>Categoria</label>
+                    <label>Marca</label>
+                    <label>Avaliação</label>
+                    <label>Cor</label>
+                    <label>Ações</label>
                 </div>
             </div>
         </div>
