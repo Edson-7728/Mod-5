@@ -1,11 +1,11 @@
 import { React, useState } from 'react';
 import Box from '@mui/material/Box';
 import Label from '../Label/Label.jsx';
-import S from './Products.module.css';
+import S from './Produtos.module.css';
 import { AiOutlineEdit } from 'react-icons/ai';
 import { BsTrash } from 'react-icons/bs';
 import { deleteProduto } from '../../service/api.js';
-import ModalDelete from '../ModalDelete/ModalDelete.jsx';
+import ModalDelete from '../Modal/ModalDelete.jsx';
 import { useNavigate } from 'react-router-dom';
 
 const Products = ({

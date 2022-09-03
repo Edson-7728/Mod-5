@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, TextField, TextareaAutosize } from '@mui/material';
 import Menu from '../Menu/Menu.jsx';
 import S from './Main.module.css';
-import Products from '../Products/Products.jsx';
+import Produtos from '../Produtos/Produtos.jsx';
 import { useState, useEffect } from 'react';
 import { getProdutos } from '../../service/api.js';
 import { red } from '@mui/material/colors';
