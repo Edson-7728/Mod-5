@@ -1,0 +1,13 @@
+.divName{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+    margin-left: 30px;
+  }
+  
+  .label{
+    width: 150px;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+  }
