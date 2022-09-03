@@ -1,19 +1,13 @@
-import React from 'react'
-import S from './Header.module.css'
-import LogoutIcon from '@mui/icons-material/Logout';
+import React from 'react';
+import { FiLogOut } from 'react-icons/fi';
+import S from './Header.module.css';
 
 const Header = () => {
   return (
-    <div className={S.container}>
-      <div className={S.titulo}>
-        <h2>Produtos</h2>
-        <h4>Use esta página para gerenciar seus produtos de forma rápida e fácil</h4>
-      </div>
-      <div className={S.logo}>
-        <LogoutIcon />
-      </div>      
+    <div className={S.header}>
+      <FiLogOut className={S.icon} />
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

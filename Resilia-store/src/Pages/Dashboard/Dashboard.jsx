@@ -1,32 +1,24 @@
-import { Button } from '@mui/material'
-import React from 'react'
-import Form from '../../Components/Form/Form'
-import Header from '../../Components/Header/Header'
-import S from './Dashboard.module.css'
+import { React, useState } from 'react';
+import { Button } from '@mui/material';
+import Main from '../../components/Main/Main.jsx';
+import S from './Dashboard.module.css';
 
 const Dashboard = () => {
-    return (
+  const [name, setName] = useState();
+  return (
+    <div className={S.div}>
+      <section className={S.section}>
         <div>
-            <Header />
-            <Button
-                variant="contained"
-                color='warning'
-                onClick={() => console.log('To funcionando')}
-            >Novo Produto</Button>
-            <div className={S.container}>
-                <Form />
-                <div className={S.titulos}>
-                    <label>Nome do produto</label>
-                    <label>Preço</label>
-                    <label>Categoria</label>
-                    <label>Marca</label>
-                    <label>Avaliação</label>
-                    <label>Cor</label>
-                    <label>Ações</label>
-                </div>
-            </div>
+          <h2>Produtos</h2>
+          <p className={S.p}>
+            Use esta página para gerenciar seus produtos de forma rápida e fácil
+          </p>
         </div>
-    )
-}
+        <Button variant="contained">Novo Produto</Button>
+      </section>
+      <Main />
+    </div>
+  );
+};
 
-export default Dashboard
+export default Dashboard;
